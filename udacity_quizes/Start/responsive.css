@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+@@media screen and (min-width: 650px) {
+  .hero {
+    width: 60%;
+  }
+  .news {
+    width: 40%;
+  }
+}

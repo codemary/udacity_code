@@ -1,0 +1,59 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+svg#logo {
+  fill: #666;
+  height: 9vw;
+  width: 9vw;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+header:hover svg#logo {
+  fill: #3d85c6;
+  -webkit-filter: drop-shadow(3px 3px 3px #ddd);
+  filter: drop-shadow(3px 3px 3px #ddd);
+}
+
+
+@media screen and (max-width: 350px) {
+  .title_super {
+    font-size: 1em;
+  }
+
+  .title_sub {
+    font-size: 0.7em;
+  }
+
+  .text_muted {
+    font-size: 0.9em;
+  }
+
+  .project_titles{
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 770px) {
+  .title_super {
+    font-size: 2.5em;
+  }
+
+  .title_sub {
+    font-size: 1.25em;
+  }
+
+  .text_muted {
+    font-size: 1em;
+  }
+
+  .project_titles{
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.snippet__thumbnail > img {
+  width: 100%;
+}
+
+.snippet {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.snippet__title {
+  order: 0;
+  width: 100%;
+  margin: 0 0 0.5em;
+}
+
+.snippet__thumbnail {
+  order: 1;
+  width: 30%;
+}
+
+.snippet__description {
+  order: 2;
+  width: 70%;
+  margin: 0;
+  padding: 0 0 0 1em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
